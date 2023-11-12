@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Router>
       <Header />
+    <p>Big content here</p>
       <Footer />
       </Router>
     </div>
