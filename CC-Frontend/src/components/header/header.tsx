@@ -9,7 +9,7 @@ const Header: React.FC = () => {
             <Toolbar sx={{backgroundColor: '#222120', px: 3}}>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <img src={logo} alt="CC Logo" style={{ width: 50, height: 50, marginRight: 2 }}/>
+                        <img src={logo} alt="CC Logo" style={{ width: 50, height: 50, marginRight: 6 }}/>
                         <Typography variant="h6" component="div">
                             CritiqueCloud
                         </Typography>
