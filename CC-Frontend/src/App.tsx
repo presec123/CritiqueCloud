@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import CategoryList from './components/categoryList/categoryList';
+import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
       <Header />
-    <p>Big content here</p>
+       <CategoryList />
       <Footer />
       </Router>
     </div>
