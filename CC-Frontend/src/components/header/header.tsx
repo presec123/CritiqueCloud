@@ -16,8 +16,6 @@ const Header: React.FC = () => {
                     </Box>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
                         <Button color="inherit" component={Link} to="/signin">Sign In</Button>
-                        <Button color="inherit" component={Link} to="/signup">Sign Up</Button>
-                        <Button color="inherit" component={Link} to="/categories">Categories</Button>
                         <TextField 
                             variant="outlined" 
                             size="small" 
