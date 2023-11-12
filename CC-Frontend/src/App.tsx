@@ -1,14 +1,14 @@
 import React from 'react';
+import Header from './components/header';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <Router>
+      <Header />
+      </Router>
     </div>
   );
 }
